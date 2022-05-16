@@ -1,5 +1,5 @@
 export const corsConfig = {
-   origin: "http://localhost:3000",
+   origin: "https://nlw-return-impulse-qyhztqfj2-liposoprogramador.vercel.app/",
    methods: ["POST"]
 }
 
