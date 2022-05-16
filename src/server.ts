@@ -1,5 +1,5 @@
 import express from 'express' 
-import { corsConfig } from './configs/corsConfig';
+
 import cors from 'cors';
 import { routes } from './routes';
 
@@ -14,7 +14,7 @@ import { routes } from './routes';
 
 const app = express();
 
-app.use(cors(corsConfig)); 
+app.use(cors()); 
 app.use(express.json());
 app.use(routes); 
 
